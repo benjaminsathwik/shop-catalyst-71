@@ -59,7 +59,7 @@ const ProductCard = ({
       </CardHeader>
       <CardContent className="flex-1">
         <p className="text-2xl font-bold text-primary">
-          ${price.toFixed(2)}
+          ₹{price.toFixed(2)}
         </p>
       </CardContent>
       <CardFooter>
